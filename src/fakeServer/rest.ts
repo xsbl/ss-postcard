@@ -1,6 +1,6 @@
 import FakeRest from 'fakerest';
 import fetchMock from 'fetch-mock';
-import generateData from 'data-generator-retail';
+import generateData from 'data-generator-retail/src/index';
 
 export default () => {
     const data = generateData({ serializeDate: true });
